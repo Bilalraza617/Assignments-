@@ -4,7 +4,7 @@ import { Fragment } from "react";
 
 const font = Ubuntu({ weight: "700", subsets: ["latin"] });
 const data = [
-  { li: "Home", link: "/home" },
+  { li: "Home", link: "/" },
   { li: "About", link: "/about" },
   { li: "Contact", link: "/contact" },
   { li: "Services", link: "/services" },
