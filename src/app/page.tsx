@@ -14,8 +14,8 @@ export default function Home() {
       <div className="h-[80vh] items-center flex justify-between max-w-[70%] m-auto ">
         <div className="right w-[80%]  ml-3">
           <h1 className="font-bold text-2xl leading-4">BiLaL Raza</h1>
-          <p className="text-[9px] text-[18px] mb-2">I am a student</p>
-          <p className="text-[7px] text-[16px] mb-4">
+          <p className="text-[18px] mb-2">I am a student</p>
+          <p className="text-sm  mb-4">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam
             fugiat aspernatur explicabo nesciunt fugit dolore labore facilis
             quis tempora, temporibus iure magnam atque debitis nemo iste
