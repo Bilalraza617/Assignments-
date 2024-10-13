@@ -14,12 +14,12 @@ const data = [
 
 const Header = () => {
   return (
-    <header className="max-w-[80%] m-auto flex justify-between">
+    <header className="max-w-[80%] m-auto text-5xl flex justify-between">
       <h1 className={`${font.className}`}>BILAL</h1>
-      <ul className="flex gap-1 items-center justify-end">
+      <ul className="flex gap-3  items-center justify-end">
         {data.map((item, i) => (
           <Fragment key={i}>
-            <li className="hover:text-gray-600  text-[8px] cursor-pointer">
+            <li className="hover:text-gray-600 text-[1rem] cursor-pointer">
               <Link href={item.link} key={i}>
                 {item.li}
               </Link>

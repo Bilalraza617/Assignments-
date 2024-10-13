@@ -12,10 +12,10 @@ export default function Home() {
     <>
       <Header />
       <div className="h-[80vh] items-center flex justify-between max-w-[70%] m-auto ">
-        <div className="right w-[70%] ml-3">
-          <h1 className="font-bold text-sa leading-4">BiLaL Raza</h1>
-          <p className="text-[9px] mb-2">I am a student</p>
-          <p className="text-[7px] mb-4">
+        <div className="right w-[80%]  ml-3">
+          <h1 className="font-bold text-2xl leading-4">BiLaL Raza</h1>
+          <p className="text-[9px] text-[18px] mb-2">I am a student</p>
+          <p className="text-[7px] text-[16px] mb-4">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam
             fugiat aspernatur explicabo nesciunt fugit dolore labore facilis
             quis tempora, temporibus iure magnam atque debitis nemo iste
@@ -23,18 +23,18 @@ export default function Home() {
           </p>
 
           <div className="box-shadow-lg">
-            <p className="text-[9px] font-bold">SKills</p>
+            <p className="text-xl font-bold">SKills</p>
             <div className="flex items-center gap-2 max-w-[100%]">
-              <Image src={Prisma} alt="imge" className="h-4 w-4" />
-              <Image src={Postgres} alt="imge" className="w-4 " />
-              <Image src={tail} alt="imge" className="w-14 " />
-              <Image src={ts} alt="imge" className="w-6 " />
+              <Image src={Prisma} alt="imge" className="h-10 w-10" />
+              <Image src={Postgres} alt="imge" className="h-10 w-10 " />
+              <Image src={tail} alt="imge" className="w-32" />
+              <Image src={ts} alt="imge" className="h-10 w-16" />
             </div>
           </div>
         </div>
-        <div className="right w-[50%] text-center">
+        <div className="right ">
           <Image
-            className="rounded-[50%] h-[25vw] text-center "
+            className="rounded-[50%] h-[25vw] w-[30vw]"
             src={image}
             alt="image"
           />
